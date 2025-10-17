@@ -44,6 +44,7 @@ test_*.py
 *_test.py
 */tests/
 */test_*/
+.OTTER_LOG
 
 # Output or generated directories
 output/
