@@ -1,0 +1,64 @@
+# -----------------------------------
+# DSCI311 Repository Git Ignore File
+# -----------------------------------
+
+# OS / System files
+.DS_Store
+Thumbs.db
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs and temporary outputs
+*.log
+*.out
+*.tmp
+*.bak
+
+# Build artifacts
+*.egg-info/
+
+# Large file exceptions (keep data, ignore only big DBs)
+labs/Lab 3/data/fec_nyc.db
+
+# Ignore test files and directories
+tests/
+test_*.py
+*_test.py
+*/tests/
+*/test_*/
+
+# Output or generated directories
+output/
+results/
+tmp/
+temp/
+
+# Swap / temp files
+*.swp
+*.swo
+*~
+
+# -----------------------------------
+# Notes:
+# - Keeps all data/ directories (except fec_nyc.db)
+# - Keeps CSVs, JSONs, and analysis-ready files
+# - Ignores test scripts and checkpoints
+# -----------------------------------
